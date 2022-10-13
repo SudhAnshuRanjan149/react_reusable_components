@@ -1,0 +1,35 @@
+.sidebar_container {
+  background-color: rgb(255, 255, 255);
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.sidebar_heading {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sidebar_item {
+  background-color: rgb(240, 240, 240);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.active_link {
+  background-color: blueviolet;
+  color: white;
+}
